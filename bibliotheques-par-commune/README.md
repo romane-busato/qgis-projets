@@ -1,27 +1,31 @@
-# Répartition des bibliothèques publiques par commune
+# Accessibilité aux bibliothèques publiques — Haute-Garonne
 
-![Carte](carte_choroplète_bibliothèques_31.png)
+## Cartes
+
+### Répartition par commune
+![Carte choroplèthe](carte_choroplèthe_bibliothèques_31.png)
+
+### Zones d'accessibilité à vol d'oiseau
+![Tampons](carte_accessibilite_bibliotheques_31.png)
 
 ## Objectif
-Visualiser la répartition des bibliothèques publiques par commune 
-sur le département de la Haute-Garonne.
+Analyser la répartition et l'accessibilité aux bibliothèques publiques 
+dans le département de la Haute-Garonne (31).
 
 ## Données utilisées
 - **IGN BD TOPO** — limites communales (cartes.gouv.fr)
-- **Adresses des bibliothèques des collectivités territoriales** (data.gouv.fr, Ministère de la Culture)
+- **Bibliothèques des collectivités territoriales** — Ministère de la Culture 
+(data.gouv.fr, source nationale datée du 27/08/2025)
 
 ## Méthode
-1. Chargement des données communales IGN en Lambert 93 (EPSG:2154)
-2. Chargement et reprojection des bibliothèques (WGS84 → Lambert 93)
-3. Filtrage des couches pour limiter les données au département 31
-4. Comptage par commune via jointure spatiale
-5. Carte choroplèthe avec classification manuelle
+1. Jointure spatiale entre points bibliothèques et polygones communes 
+   → comptage par commune → carte choroplèthe
+2. Tampons progressifs (500m, 2km, 5km, 15km) autour de chaque bibliothèque 
+   → découpe aux limites départementales → zones d'accessibilité
 
 ## Limites
-Le jeu de données national peut présenter des lacunes locales — 
-certaines bibliothèques départementales peuvent ne pas y figurer.
-Les données sur les bibliothèques ont été mises à jour pour la dernière fois le 27/08/2025
+La source nationale peut présenter des lacunes locales, 
+notamment en zone rurale.
 
 ## Outils
-QGIS · Lambert 93 (EPSG:2154) · données vecteur
-
+QGIS · Lambert 93 (EPSG:2154) · IGN BD TOPO · data.gouv.fr

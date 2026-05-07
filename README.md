@@ -6,10 +6,11 @@ orientés environnement et humanitaire.
 
 ## 🗺️ Projets
 
-### [Bibliothèques par commune](./bibliotheques-par-commune)
-Analyse de la répartition des bibliothèques publiques par commune 
+### [Accessibilité aux bibliothèques publiques — Haute-Garonne](./bibliotheques-par-commune)
+Répartition et accessibilité à vol d'oiseau aux bibliothèques publiques par commune en Haute-Garonne 
 à partir de données IGN BD TOPO et data.gouv.fr.  
-Jointure spatiale · Carte choroplèthe
+Jointure spatiale · Tampons progressifs · Carte choroplèthe
+
 
 ---
 *Projets réalisés avec QGIS, données IGN, data.gouv.fr et HDX.*
