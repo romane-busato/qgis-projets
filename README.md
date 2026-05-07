@@ -7,8 +7,8 @@ orientés environnement et humanitaire.
 ## 🗺️ Projets
 
 ### [Accessibilité aux bibliothèques publiques — Haute-Garonne](./bibliotheques-par-commune)
-Répartition et accessibilité à vol d'oiseau aux bibliothèques publiques 
-par commune en Haute-Garonne à partir de données IGN BD TOPO et data.gouv.fr.  
+Répartition et accessibilité à vol d'oiseau aux bibliothèques publiques par commune en Haute-Garonne 
+à partir de données IGN BD TOPO et data.gouv.fr.  
 Jointure spatiale · Tampons progressifs · Carte choroplèthe
 
 
