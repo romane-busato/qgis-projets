@@ -1,0 +1,19 @@
+# Fichiers QGIS de travail
+*.qgz
+*.qgs
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+
+# Données raster
+*.tif
+*.tiff
+*.img
+
+# Dossiers de données
+data/
+raw/
