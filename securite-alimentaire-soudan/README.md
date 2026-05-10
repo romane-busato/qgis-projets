@@ -10,6 +10,7 @@ situation d'insécurité alimentaire aiguë. La sécurité alimentaire du pays
 est critique, avec 33 millions de personnes au bord de la famine, des zones 
 de famine officiellement établies et une flambée des prix des denrées
 alimentaires. 
+
 Source : [Courrier International](https://www.courrierinternational.com/article/analyse-soudan-mille-jours-de-guerre-pour-un-pays-en-cendres_239265)
 
 
@@ -32,10 +33,12 @@ Taux de malnutrition aiguë globale chez les enfants de moins de 5 ans
 par localité, selon les seuils OMS, données Nutrition Cluster novembre 2025.
 
 ## Données utilisées
-- **Administrative boundaries** — HDX, OCHA (COD-AB-SDN)
-- **IPC acute food insecurity** — HDX, IPC, 30/04/2026
-- **Conflict events** — HDX, ACLED, 29/04/2026
-- **GAM/SAM rates** — HDX, Nutrition Cluster, novembre 2025
+- **Administrative boundaries** — [HDX, OCHA (COD-AB-SDN)](https://data.humdata.org/dataset/cod-ab-sdn)
+- **IPC acute food insecurity** — [HDX, IPC, 30/04/2026](https://data.humdata.org/dataset/sudan-acute-food-insecurity-country-data)
+- **Conflict events** — [HDX, ACLED, 29/04/2026](https://data.humdata.org/dataset/sudan-acled-conflict-data)
+- **GAM/SAM rates** — [HDX, Nutrition Cluster, novembre 2025](https://data.humdata.org/dataset/gam-mam-and-sam-based-on-muac-measurements)
+- **Limites des pays voisins** — [Natural Earth](https://www.naturalearthdata.com) 
+  (domaine public), Admin 0 Countries, 1:10m
 
 ## Méthode
 - Formatage des jeux de données (filtrage des données ACLED par date
