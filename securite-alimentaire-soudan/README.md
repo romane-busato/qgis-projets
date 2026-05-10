@@ -14,8 +14,8 @@ alimentaires.
 Source : [Courrier International](https://www.courrierinternational.com/article/analyse-soudan-mille-jours-de-guerre-pour-un-pays-en-cendres_239265)
 
 
-Comment la guerre civile soudanaise impacte la sécurité alimentaire de la 
-population ?
+**Comment la guerre civile soudanaise impacte la sécurité alimentaire de la 
+population ?**
 
 ## Cartes
 
@@ -33,10 +33,10 @@ Taux de malnutrition aiguë globale chez les enfants de moins de 5 ans
 par localité, selon les seuils OMS, données Nutrition Cluster novembre 2025.
 
 ## Données utilisées
-- **Administrative boundaries** — [HDX, OCHA (COD-AB-SDN)](https://data.humdata.org/dataset/cod-ab-sdn)
-- **IPC acute food insecurity** — [HDX, IPC, 30/04/2026](https://data.humdata.org/dataset/sudan-acute-food-insecurity-country-data)
-- **Conflict events** — [HDX, ACLED, 29/04/2026](https://data.humdata.org/dataset/sudan-acled-conflict-data)
-- **GAM/SAM rates** — [HDX, Nutrition Cluster, novembre 2025](https://data.humdata.org/dataset/gam-mam-and-sam-based-on-muac-measurements)
+- **Administrative boundaries** — [HDX, OCHA](https://data.humdata.org/dataset/cod-ab-sdn) (COD-AB-SDN)
+- **IPC acute food insecurity** — [HDX, IPC](https://data.humdata.org/dataset/sudan-acute-food-insecurity-country-data), 30/04/2026
+- **Conflict events** — [HDX, ACLED](https://data.humdata.org/dataset/sudan-acled-conflict-data), 29/04/2026
+- **GAM/SAM rates** — [HDX, Nutrition Cluster](https://data.humdata.org/dataset/gam-mam-and-sam-based-on-muac-measurements), novembre 2025
 - **Limites des pays voisins** — [Natural Earth](https://www.naturalearthdata.com) 
   (domaine public), Admin 0 Countries, 1:10m
 
