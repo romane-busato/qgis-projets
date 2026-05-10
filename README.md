@@ -11,6 +11,12 @@ Répartition et accessibilité à vol d'oiseau aux bibliothèques publiques par 
 à partir de données IGN BD TOPO et data.gouv.fr.  
 Jointure spatiale · Tampons progressifs · Carte choroplèthe
 
+### [Sécurité alimentaire et conflit au Soudan](./securite-alimentaire-soudan)
+Analyse de l'insécurité alimentaire (IPC) et de la malnutrition infantile (GAM) 
+en lien avec le conflit armé depuis avril 2023.  
+à partir de données humanitaires HDX, ACLED et NaturalEarth 
+Jointure spatiale · formatage données · centroïdes
+
 
 ---
 *Projets réalisés avec QGIS, données IGN, data.gouv.fr et HDX.*
