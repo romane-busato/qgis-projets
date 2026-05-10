@@ -14,7 +14,7 @@ Jointure spatiale · Tampons progressifs · Carte choroplèthe
 ### [Sécurité alimentaire et conflit au Soudan](./securite-alimentaire-soudan)
 Analyse de l'insécurité alimentaire (IPC) et de la malnutrition infantile (GAM) 
 en lien avec le conflit armé depuis avril 2023
-à partir de données humanitaires HDX, ACLED et NaturalEarth.
+à partir de données humanitaires HDX, ACLED et NaturalEarth.  
 Jointure spatiale · formatage données · centroïdes
 
 
