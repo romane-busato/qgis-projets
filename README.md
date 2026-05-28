@@ -9,7 +9,7 @@ orientés environnement et humanitaire.
 ### [Accessibilité aux bibliothèques publiques — Haute-Garonne](./bibliotheques-par-commune)
 Répartition et accessibilité à vol d'oiseau puis en distance réelle aux bibliothèques 
 publiques par commune en Haute-Garonne
-à partir de données IGN BD TOPO, data.gouv.fr et OpenRouteService.
+à partir de données IGN BD TOPO, data.gouv.fr et OpenRouteService.  
 Jointure spatiale · Tampons progressifs · Carte choroplèthe · ORS Tools · Isochrones réseau routier
 
 ### [Sécurité alimentaire et conflit au Soudan](./securite-alimentaire-soudan)
