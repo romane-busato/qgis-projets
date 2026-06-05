@@ -13,7 +13,7 @@ Nombre de bibliothèques par commune (jointure spatiale)
 Distance à vol d'oiseau depuis une bibliothèque (tampons progressifs découpés aux limites du département)
 
 ### Accessibilité en temps de trajet réel
-![Isochrones](carte_isochrones_bibliothèques.png)
+![Isochrones](carte_isochrones_bibliothèques_31.png)
 
 Distance à pied depuis une bibliothèque (isochrones calculés sur le réseau routier réel via OpenRouteService)
 
@@ -48,5 +48,15 @@ La source nationale peut présenter des lacunes locales, notamment en zone rural
 Les tampons à vol d'oiseau ne tiennent pas compte du réseau routier ni de la topographie
 Les isochrones sont basés sur OSM, leur qualité dépend de la complétude des données locales
 
+## Analyse SQL avec PostgreSQL/PostGIS
+
+Les mêmes analyses ont été reproduites en SQL spatial avec PostgreSQL/PostGIS, notamment :
+- Comptage des bibliothèques par commune (jointure spatiale)
+- Communes sans bibliothèque
+- Bibliothèque la plus proche de chaque commune (CROSS JOIN LATERAL)
+- Calcul de surfaces et distances
+
+📄 [Script SQL commenté](analyse_postgis.sql)
+
 ## Outils
-QGIS · ORS Tools · Lambert 93 (EPSG:2154) · IGN BD TOPO · data.gouv.fr · OpenRouteService
+QGIS · ORS Tools · Lambert 93 (EPSG:2154) · IGN BD TOPO · data.gouv.fr · OpenRouteService · PostgreSQL/PostGIS
